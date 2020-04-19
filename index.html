@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,11 +28,161 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+
+  <div class="container">
+
+<!-- 0800 -->
+    <div class="row time-block" id="8">
+      <div class="col-sm-2 hour" id="time8">
+       <p>0800</p>
+      </div>
+
+      <div class="col-8">
+        <textarea type="text" class="textarea" id="task8"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save8">
+        <button type="button" class="btn btn-dark" onclick="saveTask8(8, document.getElementById('task8').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 0900 -->
+    <div class="row time-block" id="9">
+      <div class="col-sm-2 hour" id="time9">
+       <p>0900</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task9"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save9">
+        <button type="button" class="btn btn-dark" onclick="saveTask9(9, document.getElementById('task9').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1000 -->
+    <div class="row time-block" id="10">
+      <div class="col-sm-2 hour" id="time10">
+       <p>1000</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task10"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save10">
+        <button type="button" class="btn btn-dark" onclick="saveTask10(10, document.getElementById('task10').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1100 -->
+    <div class="row time-block" id="11">
+      <div class="col-sm-2 hour" id="time11">
+       <p>1100</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task11"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save11">
+        <button type="button" class="btn btn-dark" onclick="saveTask11(11, document.getElementById('task11').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1200 -->
+    <div class="row time-block" id="12">
+      <div class="col-sm-2 hour" id="time12">
+       <p>1200</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task12"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save12">
+        <button type="button" class="btn btn-dark" onclick="saveTask12(12, document.getElementById('task12').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1300 -->
+    <div class="row time-block" id="13">
+      <div class="col-sm-2 hour" id="time13">
+       <p>1300</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task13"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save13">
+        <button type="button" class="btn btn-dark" onclick="saveTask13(13, document.getElementById('task13').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1400 -->
+    <div class="row time-block" id="14">
+      <div class="col-sm-2 hour" id="time14">
+       <p>1400</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task14"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save14">
+        <button type="button" class="btn btn-dark" onclick="saveTask14(14, document.getElementById('task14').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1500 -->
+    <div class="row time-block" id="15">
+      <div class="col-sm-2 hour" id="time15">
+       <p>1500</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task15"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save15">
+        <button type="button" class="btn btn-dark" onclick="saveTask15(15, document.getElementById('task15').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1600 -->
+    <div class="row time-block" id="16">
+      <div class="col-sm-2 hour" id="time16">
+       <p>1600</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task16"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save16">
+        <button type="button" class="btn btn-dark" onclick="saveTask16(16, document.getElementById('task16').value)">Save</button>
+      </div>
+    </div>
+
+<!-- 1700 -->
+    <div class="row time-block" id="17">
+      <div class="col-sm-2 hour" id="time17">
+       <p>1700</p>
+      </div>
+
+      <div class="col-8">
+        <textarea class="col-12" id="task17"></textarea>
+      </div>
+      
+      <div class="col-sm-2" id="save17">
+        <button type="button" class="btn btn-dark" onclick="saveTask17(17, document.getElementById('task17').value)">Save</button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
