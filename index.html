@@ -34,125 +34,6 @@
 
 
   <div class="container">
-<!-- 0000 -->
-    <div class="row" id="0000">
-      <div class="col-sm-2" id="time0">
-        <p>0000</p>
-      </div>
-
-      <div class="col-8">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save0">
-        <button type="button" class="btn btn-dark" onclick="addTask(0)">Save</button>
-      </div>
-    </div>
-
-<!-- 0100 -->
-    <div class="row" id="0100">
-      <div class="col-sm-2" id="time1">
-       <p>0100</p>
-      </div>
-
-      <div class="col-8">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save1">
-        <button type="button" class="btn btn-dark" onclick="addTask(1)">Save</button>
-      </div>
-    </div>
-
-<!-- 0200 -->
-    <div class="row" id="0200">
-      <div class="col-sm-2" id="time2">
-       <p>0200</p>
-      </div>
-
-      <div class="col-8" id="task2">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save2">
-        <button type="button" class="btn btn-dark" onclick="addTask(2)">Save</button>
-      </div>
-    </div>
-
-<!-- 0300 -->
-    <div class="row" id="0300">
-      <div class="col-sm-2" id="time3">
-       <p>0300</p>
-      </div>
-
-      <div class="col-8" id="task3">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save3">
-        <button type="button" class="btn btn-dark" onclick="addTask(3)">Save</button>
-      </div>
-    </div>
-
-<!-- 0400 -->
-    <div class="row" id="0400">
-      <div class="col-sm-2" id="time4">
-       <p>0400</p>
-      </div>
-
-      <div class="col-8" id="task4">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save4">
-        <button type="button" class="btn btn-dark" onclick="addTask(4)">Save</button>
-      </div>
-    </div>
-
-<!-- 0500 -->
-    <div class="row" id="0500">
-      <div class="col-sm-2" id="time5">
-       <p>0500</p>
-      </div>
-
-      <div class="col-8" id="task5">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save5">
-        <button type="button" class="btn btn-dark" onclick="addTask(5)">Save</button>
-      </div>
-    </div>
-
-<!-- 0600 -->
-    <div class="row" id="0600">
-      <div class="col-sm-2" id="time6">
-       <p>0600</p>
-      </div>
-
-      <div class="col-8" id="task6">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save6">
-        <button type="button" class="btn btn-dark"  onclick="addTask(6)">Save</button>
-      </div>
-    </div>
-
-<!-- 0700 -->
-    <div class="row" id="0700">
-      <div class="col-sm-2" id="time7">
-       <p>0700</p>
-      </div>
-
-      <div class="col-8" id="task7">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save7">
-        <button type="button" class="btn btn-dark"  onclick="addTask(7)">Save</button>
-      </div>
-    </div>
 
 <!-- 0800 -->
     <div class="row" id="0800">
@@ -160,12 +41,12 @@
        <p>0800</p>
       </div>
 
-      <div class="col-8" id="task8">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea type="text" class="col-12" id="task8"></textarea>
       </div>
       
       <div class="col-sm-2" id="save8">
-        <button type="button" class="btn btn-dark"  onclick="addTask(8)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask8(8, document.getElementById('task8').value)">Save</button>
       </div>
     </div>
 
@@ -175,12 +56,12 @@
        <p>0900</p>
       </div>
 
-      <div class="col-8" id="task9">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task9"></textarea>
       </div>
       
       <div class="col-sm-2" id="save9">
-        <button type="button" class="btn btn-dark" onclick="addTask(9)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask9(9, document.getElementById('task9').value)">Save</button>
       </div>
     </div>
 
@@ -190,12 +71,12 @@
        <p>1000</p>
       </div>
 
-      <div class="col-8" id="task10">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task10"></textarea>
       </div>
       
       <div class="col-sm-2" id="save10">
-        <button type="button" class="btn btn-dark" onclick="addTask(10)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask10(10, document.getElementById('task10').value)">Save</button>
       </div>
     </div>
 
@@ -205,12 +86,12 @@
        <p>1100</p>
       </div>
 
-      <div class="col-8" id="task11">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task11"></textarea>
       </div>
       
       <div class="col-sm-2" id="save11">
-        <button type="button" class="btn btn-dark" onclick="addTask(11)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask11(11, document.getElementById('task11').value)">Save</button>
       </div>
     </div>
 
@@ -220,12 +101,12 @@
        <p>1200</p>
       </div>
 
-      <div class="col-8" id="task12">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task12"></textarea>
       </div>
       
       <div class="col-sm-2" id="save12">
-        <button type="button" class="btn btn-dark" onclick="addTask(12)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask12(12, document.getElementById('task12').value)">Save</button>
       </div>
     </div>
 
@@ -235,12 +116,12 @@
        <p>1300</p>
       </div>
 
-      <div class="col-8" id="task13">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task13"></textarea>
       </div>
       
       <div class="col-sm-2" id="save13">
-        <button type="button" class="btn btn-dark" onclick="addTask(13)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask13(13, document.getElementById('task13').value)">Save</button>
       </div>
     </div>
 
@@ -250,12 +131,12 @@
        <p>1400</p>
       </div>
 
-      <div class="col-8" id="task14">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task14"></textarea>
       </div>
       
       <div class="col-sm-2" id="save14">
-        <button type="button" class="btn btn-dark" onclick="addTask(14)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask14(14, document.getElementById('task14').value)">Save</button>
       </div>
     </div>
 
@@ -265,12 +146,12 @@
        <p>1500</p>
       </div>
 
-      <div class="col-8" id="task15">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task15"></textarea>
       </div>
       
       <div class="col-sm-2" id="save15">
-        <button type="button" class="btn btn-dark" onclick="addTask(15)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask15(15, document.getElementById('task15').value)">Save</button>
       </div>
     </div>
 
@@ -280,12 +161,12 @@
        <p>1600</p>
       </div>
 
-      <div class="col-8" id="task16">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task16"></textarea>
       </div>
       
       <div class="col-sm-2" id="save16">
-        <button type="button" class="btn btn-dark" onclick="addTask(16)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask16(16, document.getElementById('task16').value)">Save</button>
       </div>
     </div>
 
@@ -295,107 +176,14 @@
        <p>1700</p>
       </div>
 
-      <div class="col-8" id="task17">
-        <textarea class="col-12" id="task0"></textarea>
+      <div class="col-8">
+        <textarea class="col-12" id="task17"></textarea>
       </div>
       
       <div class="col-sm-2" id="save17">
-        <button type="button" class="btn btn-dark" onclick="addTask(17)">Save</button>
+        <button type="button" class="btn btn-dark" onclick="saveTask17(17, document.getElementById('task17').value)">Save</button>
       </div>
     </div>
-
-<!-- 1800 -->
-    <div class="row" id="1800">
-      <div class="col-sm-2" id="time18">
-       <p>1800</p>
-      </div>
-
-      <div class="col-8" id="task18">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save18">
-        <button type="button" class="btn btn-dark" onclick="addTask(18)">Save</button>
-      </div>
-    </div>
-
-<!-- 1900 -->
-    <div class="row" id="1900">
-      <div class="col-sm-2" id="time19">
-      <p>1900</p>
-      </div>
-
-      <div class="col-8" id="task19">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save19"> 
-        <button type="button" class="btn btn-dark" onclick="addTask(19)">Save</button>
-      </div>
-    </div>
-
-<!-- 2000 -->
-    <div class="row" id="2000">
-      <div class="col-sm-2" id="time20">
-       <p>2000</p>
-      </div>
-
-      <div class="col-8" id="task20">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save20">
-        <button type="button" class="btn btn-dark" onclick="addTask(20)">Save</button>
-      </div>
-    </div>
-
-<!-- 2100 -->
-    <div class="row" id="2100">
-      <div class="col-sm-2" id="time21">
-       <p>2100</p>
-      </div>
-
-      <div class="col-8" id="task21">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save21">
-        <button type="button" class="btn btn-dark"  onclick="addTask(21)">Save</button>
-      </div>
-    </div>
-
-<!-- 2200 -->
-    <div class="row" id="2200">
-      <div class="col-sm-2" id="time22">
-       <p>2200</p>
-      </div>
-
-      <div class="col-8" id="task22">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save22">
-        <button type="button" class="btn btn-dark" onclick="addTask(22)">Save</button>
-      </div>
-    </div>
-
-<!-- 2300 -->
-    <div class="row" id="2300">
-      <div class="col-sm-2" id="time23">
-       <p>2300</p>
-      </div>
-
-      <div class="col-8" id="task23">
-        <textarea class="col-12" id="task0"></textarea>
-      </div>
-      
-      <div class="col-sm-2" id="save23">
-        <button type="button" class="btn btn-dark" onclick="addTask(23)">Save</button>
-      </div>
-    </div>
-
-
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
