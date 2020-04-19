@@ -1,4 +1,12 @@
 
+// ****** Set current date and time ******
+$(function() {
+    var current = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+    $("#currentDay").append(current)
+});
+
+
+
 // ****** 8 ******
 function saveTask8(btnId8,taskId8) {
     localStorage.setItem('newTask8', taskId8);
