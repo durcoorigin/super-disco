@@ -6,9 +6,6 @@ $(function() {
 });
 
 var currentTime = moment().hour();
-console.log(currentTime);
-
-
 
 // ****** 8 ******
 function saveTask8(btnId8,taskId8) {
